@@ -1445,3 +1445,135 @@ input[type=checkbox]:checked +.sheet-buff-name {
     position:absolute;
     content:'}' !important;
 }
+
+
+/********************************************** Roll Templates ***************************************************************************/
+.sheet-rolltemplate-sf_attack,
+.sheet-rolltemplate-sf_generic {
+    width: 189px;
+    height: 100%;
+	border: 2px solid #2b1f38;
+	background-color: #2b1f38;
+    border-spacing: 0px;
+    border-radius: 9px;
+}
+ 
+.sheet-rolltemplate-sf_attack-header,
+.sheet-rolltemplate-sf_generic-header {
+	color: #ffffff;
+    padding: 6px;
+	font-size: 1.2em;
+    text-align: left;
+    word-wrap: normal;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.sheet-rolltemplate-sf_attack-content,
+.sheet-rolltemplate-sf_generic-content {
+    min-height:16px;
+    height: 100%;
+    color: #000;
+    background-color: #366893;
+    border-radius: 9px;
+	font-size: 1.2em;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.sheet-rolltemplate-sf_attack-content_attack,
+.sheet-rolltemplate-sf_attack-content_damage_part,
+.sheet-rolltemplate-sf_generic-content_save,
+.sheet-rolltemplate-sf_generic-content_roll {
+    min-height:16px;
+    height: 100%;
+    padding: 9px;
+}
+
+.sheet-rolltemplate-sf_attack-content_damage {
+    margin: 1px;
+    color: #000;
+    background-color: #366263;
+    border-radius: 9px;
+}
+
+.sheet-rolltemplate-sf_attack-content_check,
+.sheet-rolltemplate-sf_generic-content_check {
+    height:16px;
+}
+
+.sheet-rolltemplate-sf_attack-content_left,
+.sheet-rolltemplate-sf_generic-content_left {
+    text-align: left;
+    float: left;
+}
+
+.sheet-rolltemplate-sf_attack-content_right,
+.sheet-rolltemplate-sf_generic-content_right {
+    text-align: right;
+    float: right;
+}
+
+.sheet-rolltemplate-sf_attack-content_notes,
+.sheet-rolltemplate-sf_generic-content_notes {
+    min-height:16px;
+    height: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.sheet-rolltemplate-sf_attack .inlinerollresult,
+.sheet-rolltemplate-sf_generic .inlinerollresult  {
+    border: 2px solid #fff;
+    color: #000;
+    background-color: #fff;
+    border-radius: 12px;
+}
+ 
+.sheet-rolltemplate-sf_attack .inlinerollresult.fullcrit,
+.sheet-rolltemplate-sf_generic .inlinerollresult.fullcrit {
+	border: 2px solid #3FB315;
+    color: #000;
+    background-color: #3FB315;
+    border-radius: 12px;
+}
+ 
+.sheet-rolltemplate-sf_attack .inlinerollresult.fullfail,
+.sheet-rolltemplate-sf_generic .inlinerollresult.fullfail {
+	border: 2px solid #B31515;
+    color: #fff;
+    background-color: #B31515;
+    border-radius: 12px;
+}
+
+.sheet-rolltemplate-sf_attack .inlinerollresult.importantroll, 
+.sheet-rolltemplate-sf_generic .inlinerollresult.importantroll {
+	border: 2px solid #4A57ED;
+    color: #000;
+    background-color: #4A57ED;
+    border-radius: 12px;
+}
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
